@@ -14,7 +14,7 @@ public class Test1 {
             String values = fr.readLine();
             String [] numbers = values.split(",");
             for (String s : numbers)
-                list.add(Integer.valueOf(s));
+                list.add(Integer.valueOf(s));  //
         }
         fr.close();
 
