@@ -24,7 +24,7 @@ public class Test1 {
         for(int a : list)
             System.out.print(list.get(a)+" ");
 
-        System.out.println();
+        System.out.println();  //
         System.out.print("По убыванию: ");
         for (int i=list.size()-1;i>=0;i--)
             System.out.print(list.get(i)+" ");
